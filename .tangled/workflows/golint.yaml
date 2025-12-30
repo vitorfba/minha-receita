@@ -11,9 +11,5 @@ dependencies:
 environment:
   GOEXPERIMENT: jsonv2
 steps:
-  - name: "Check Go version"
-    command: "go version"
-  - name: "Check Go CI Lint version"
-    command: "golangci-lint version"
   - name: "Linter"
     command: "golangci-lint run ./..."
