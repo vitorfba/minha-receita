@@ -6,7 +6,7 @@ when:
 engine: "nixery"
 dependencies:
   nixpkgs:
-    - go
+    - go@1.25.0
 environment:
   GOEXPERIMENT: jsonv2
 steps:
